@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/VividCiphers/Social-Network-Project-React-Version/issues"
   },
-  "homepage": "https://github.com/VividCiphers/Social-Network-Project-React-Version#readme"
+  "homepage": "https://github.com/VividCiphers/Social-Network-Project-React-Version#readme",
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
 }
