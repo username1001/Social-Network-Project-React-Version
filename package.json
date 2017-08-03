@@ -1,0 +1,19 @@
+{
+  "name": "social-network-react-version",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VividCiphers/Social-Network-Project-React-Version.git"
+  },
+  "author": "amrit_pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VividCiphers/Social-Network-Project-React-Version/issues"
+  },
+  "homepage": "https://github.com/VividCiphers/Social-Network-Project-React-Version#readme"
+}
