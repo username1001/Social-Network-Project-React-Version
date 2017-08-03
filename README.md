@@ -1,8 +1,10 @@
 # Social Network Project VC | React Version
 
-As usual, all the work will be done in [Development]("https://github.com/VividCiphers/Social-Network-Project-React-Version/tree/development") branch.
+As usual, all the work will be done in [development]("https://github.com/VividCiphers/Social-Network-Project-React-Version/tree/development") branch.
 
-To start working on components, clone this repository using good old **git clone https://github.com/VividCiphers/Social-Network-Project-React-Version.git** command.
+And, all the reference files like screenshots and research will be stored in [reference]("https://github.com/VividCiphers/Social-Network-Project-React-Version/tree/reference") branch. 
+
+To start working on components, clone this repository using good old `git clone https://github.com/VividCiphers/Social-Network-Project-React-Version.git`command.
 
 Now, move into the repository in terminal and type:
 `git checkout development`
