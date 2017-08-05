@@ -9,6 +9,8 @@ To start working on components, clone this repository using good old `git clone 
 Now, move into the repository in terminal and type:
 `git checkout development`
 
+__NOTE__ Before you can run this project, you need to run `npm install` from the commandline to install all dependencies.
+
 Now, do not alter or change anything in this branch,
 Make another branch. Name it anything you want, say **my-features**
 `git branch my-features`
