@@ -1,0 +1,13 @@
+.get-the-app{
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+@media only screen and (min-width:450px){
+  .get-the-app{
+    width: 80%;
+  }
+}

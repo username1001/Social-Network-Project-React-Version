@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+import LoginPage from './LoginPage';
 
 const App = () => (
    <div>
-      <h1>Main content goes here</h1>
+      <LoginPage />
    </div>
 );
 
