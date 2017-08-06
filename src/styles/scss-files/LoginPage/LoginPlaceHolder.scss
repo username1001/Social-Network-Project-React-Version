@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
 
 .lph-sph-gta{
   border: 1px solid rgba(0,0,0,0);
@@ -7,17 +7,18 @@
   min-width: 350px; 
   text-align: center;
     .title{
-      font-family: 'Skranji', cursive;  
+      font-family: 'Vidaloka', serif;  
       font-size: 38px;
       font-weight: 100;
-      color: #262626;    
+      color: #262626;
+      margin-bottom: 10px;    
     }
     form{
       width: 80%;
       margin: 0 auto;
       font-family: Helvetica;
       input[type="text"]{
-        font-size: 16px;
+        font-size: 15px;
         box-sizing: border-box;
         width: 95%;
         padding: 10px;
@@ -27,7 +28,7 @@
         background-color: inherit;
       }
       input[type="text"]::placeholder{
-        font-size: 16px;
+        font-size: 15px;
         color: #9c9c9c;
       }
       input[type="text"]:focus{
@@ -53,6 +54,7 @@
       }
     }
   .dont-have-account{
+      font-size: 15px;
       padding: 28px 0;
   }
 }
