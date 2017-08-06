@@ -12,6 +12,6 @@ const GetTheApp = () => (
        <img src={google_store} alt=""/>
      </div>
    </div> 
-)
+);
 
 export default GetTheApp;

@@ -6,7 +6,7 @@ import slider3 from '../../images/LoginPage/slider3.jpg';
 
 import iphone from '../../images/LoginPage/iphone.png';
 
-class Animation extends React.Component{
+class Animation extends Component{
   componentDidMount(){
     let i = 0;
     const timeGap = 4000;  // timer for slider
