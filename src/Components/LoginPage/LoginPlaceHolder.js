@@ -5,7 +5,7 @@ import GetTheApp from './GetTheApp';
 class LoginPlaceHolder extends Component {
     render() {
         return (
-            <div className="lph-sph-gta"> 
+            <div className="lph-sph-gta" > 
                 <div className="login-place-holder">
                     <div>
                     <h1 className="title">Instagram</h1>

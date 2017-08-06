@@ -30,8 +30,8 @@ class LoginPage extends Component {
         return (
             <div className="login-page">
               <div className="container">
-                  
-                 {!isLoginPage ? 
+                  <Animation/>
+                 {isLoginPage ? 
                      <LoginPlaceHolder onClick={this.handleLoginClick}/> : 
                      <SignUpPlaceHolder onClick={this.handleLoginClick}/>
                   }              

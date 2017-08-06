@@ -1,10 +1,13 @@
+.iphone{
+    display: none;
+}
 
 @media only screen and (min-width:875px){
     .iphone{
-        width: 240px;
+        display: block;
+        width: 280px;
         position: relative;
-        margin: 0 auto;
-        border: 1px solid black;
+        margin-right: 40px;
         img{
             width: 100%;
         }
@@ -12,10 +15,10 @@
             position: absolute;
             left: 0;
             right: 0;
-            top: 56.5px;
+            top: 67.5px;
             margin: 0 auto;
             height: 400px;
-            width: 200px;
+            width: 232px;
             img{
             display: none;
             }

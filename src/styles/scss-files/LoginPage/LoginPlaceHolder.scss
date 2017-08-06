@@ -1,7 +1,4 @@
 
-.lph-sph-gta{
-  border: 1px solid rgba(0,0,0,0);
-}
 .login-place-holder{
   min-width: 350px; 
   text-align: center;
@@ -66,12 +63,18 @@
   .login-place-holder{
     width: 350px;
     margin: 0 auto;
-    padding-top: 50px;
     > div{
       margin-bottom: 10px;
       border: 1px solid #ddd;
       border-radius: 2px;
       background-color: #FFFFFF;   
+    }
+  }
+}
+@media only screen and (min-width:875px){
+  .lph-sph-gta{
+    .login-place-holder{
+      padding-top: 40px;
     }
   }
 }
