@@ -1,0 +1,35 @@
+
+.login-page-footer{
+  width: 90vw;
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  ul{
+    display: block;
+    margin: 5px 0 5px 0; 
+    li{
+      display: inline-block;
+      color: #001549;
+      font-weight: 800;
+      font-size: inherit;
+      text-align: center;
+      padding: 3px 6px;
+      span{
+        cursor: pointer;
+      }
+    }
+  }
+  > span{
+    color: #888;
+    font-size: inherit;
+    padding-bottom: 5px;
+  }
+}
+
+
+@media only screen and (min-width:450px){
+  .login-page-footer{
+    width: 450px;
+  }
+}

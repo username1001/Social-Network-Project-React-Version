@@ -1,0 +1,28 @@
+
+@media only screen and (min-width:875px){
+    .iphone{
+        width: 240px;
+        position: relative;
+        margin: 0 auto;
+        border: 1px solid black;
+        img{
+            width: 100%;
+        }
+        #img-slider {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 56.5px;
+            margin: 0 auto;
+            height: 400px;
+            width: 200px;
+            img{
+            display: none;
+            }
+            .current-img{
+            display: block;
+            }
+        }
+    }
+
+}

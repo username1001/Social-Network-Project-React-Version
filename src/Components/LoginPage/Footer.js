@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 const FooterLinks = [
     "ABOUT US",
     "SUPPORT",
@@ -13,8 +14,8 @@ const FooterLinks = [
     "LANGUAGE"
 ]
 
-const FooterList = FooterLinks.map(link,i  => 
-    <li key={i}>{link}</li>
+const FooterList = FooterLinks.map((link,i)  => 
+    <li key={i}><span>{link}</span></li>
 )
 
 const Footer = () =>  (
@@ -22,6 +23,7 @@ const Footer = () =>  (
       <ul>
           {FooterList}
       </ul>
+      <span>© 2017 INSTAGRAM</span>
   </div>
 )
 
