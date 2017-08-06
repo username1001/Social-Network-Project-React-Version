@@ -3,15 +3,29 @@
 .login-page{
   min-height: 100vh;
   background-color: #F9F9F9;
-  
+  .container{
+    padding-top: 0px;
+    border: 1px solid rgba(0,0,0,0);
+  }
 }
 
 
 
 @media only screen and (min-width:450px){
-
+  .login-page{
+    .container{
+      padding-top: 35px;
+    }
+  }
 }
 
 @media only screen and (min-width:875px){
-  
+  .login-page{
+    .container{
+       width: 685px;
+       box-sizing: border-box;
+       margin: 0 auto;
+       display: flex;
+    }
+  }
 }
