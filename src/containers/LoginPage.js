@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import LoginPlaceHolder from '../Components/LoginPage/LoginPlaceHolder';
 import SignUpPlaceHolder from '../Components/LoginPage/SignUpPlaceHolder';
-import Footer from '../Components/LoginPage/Footer';
+
 import Animation from '../Components/LoginPage/Animation';
 
 class LoginPage extends Component {
@@ -36,7 +36,6 @@ class LoginPage extends Component {
                      <SignUpPlaceHolder onClick={this.handleLoginClick}/>
                   }              
               </div> 
-              <Footer />
             </div>
         );
     }

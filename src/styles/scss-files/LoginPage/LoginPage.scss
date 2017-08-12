@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Vidaloka');
 
 .login-page{
-  min-height: 100vh;
+  min-height: calc(100vh - 70px);
   background-color: #F9F9F9;
   .container{
     padding-top: 0px;
