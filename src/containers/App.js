@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Navbar from '../Components/Header/Navbar';
+
+
 const App = () => (
-   <div>
-      <h1>Main content goes here</h1>
+   <div className="app">
+      
+      <Navbar />
+      
    </div>
 );
 

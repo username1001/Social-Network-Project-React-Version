@@ -1,0 +1,90 @@
+/*======================
+         NavbarHeader   
+  ====================== */
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+body {
+    background-color: #FAFAFA;
+}
+
+
+
+input[type=text] {
+    display: flex;
+    margin-top: 1.7em;
+    background-color: #FAFAFA;
+    color: #999;
+    opacity: 0.9;
+    width: 230px;
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.fa-search {
+    display: flex;
+    position: absolute;
+    top: 33px;
+    left: 7px;
+    font-size: 12px;
+    margin-left: 48em;
+    color: #999;
+}
+.fa-instagram {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 4.5em;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    margin: 0.7em;
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 1.3em;
+    font-size: 12px;
+}
+
+li a {
+    color: #333;
+}
+
+.navbar-left {
+    margin-top: 1.4em;
+    display: flex;
+    flex-direction: row;
+    .navbar-brand {
+        margin-left: 1em;
+        text-decoration: none;
+        font-size: 24px;
+        color: #333;
+    }
+}
+
+.vertical-line {
+    display: flex;
+    width: 1px;
+    height: 35px;
+    background-color: #333;
+    margin-left: 1.3em;
+}
+
+
+/*======================
+       end-  NavbarHeader   
+  ====================== */
